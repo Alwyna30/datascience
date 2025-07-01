@@ -2,6 +2,10 @@ import streamlit as st
 import pickle
 import numpy as np
 
+import os
+st.write("Current working directory:", os.getcwd())
+st.write("Files in current directory:", os.listdir())
+
 with open("model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
