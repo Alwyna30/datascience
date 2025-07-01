@@ -6,7 +6,7 @@ import os
 st.write("Current working directory:", os.getcwd())
 st.write("Files in current directory:", os.listdir())
 
-with open("model.pkl", "rb") as model_file:
+with open("titanic-logistic-app/model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 st.title("🚢 Titanic Survival Prediction App")
