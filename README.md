@@ -1,81 +1,49 @@
+# 📊 Data Science Projects Collection by Alwyna Chandanshiv
 
+This repository contains a collection of end-to-end Data Science and Machine Learning projects implemented using Jupyter Notebooks, including a **deployed web application** using Streamlit. Each notebook demonstrates a key concept or algorithm in data science, with practical examples, visualizations, and code.
 
-# Data Science Projects Collection
+---
 
-This repository contains a collection of Jupyter Notebooks and resources for various data science and machine learning techniques. Each notebook demonstrates a different algorithm or analysis method, with practical examples and code.
+## 🚀 Deployed App
 
-## Contents
+### 🎯 Titanic Survival Prediction — Logistic Regression
+A full machine learning pipeline deployed as a live Streamlit web app. Users can input passenger details and get real-time predictions on survival based on a trained logistic regression model.
 
-- **AssociationRules.ipynb**  
-  Market basket analysis and association rule mining.
+🔗 **Live App:** [Click to Open Titanic Logistic Regression App](https://datascience-48bxcrbifkfp5zqbt7cbk2.streamlit.app/)  
+📁 Folder: `titanic-logistic-app/`
 
-- **Clustering.ipynb**  
-  Clustering algorithms such as K-Means, Hierarchical, and DBSCAN.
+**Features:**
+- User-friendly input UI
+- Model saved and served using `pickle`
+- Deployed via Streamlit Community Cloud
 
-- **DECISION_TREE.ipynb**  
-  Decision tree classification and visualization.
+---
 
-- **EDA1.ipynb**  
-  Exploratory Data Analysis (Part 1): Data cleaning, visualization, and summary statistics.
+## 📘 Notebooks and Projects
 
-- **EDA2.ipynb**  
-  Exploratory Data Analysis (Part 2): Advanced visualizations and feature engineering.
+| Notebook | Description |
+|----------|-------------|
+| `AssociationRules.ipynb` | Market basket analysis using Apriori algorithm to uncover item associations. |
+| `Clustering.ipynb` | Clustering with K-Means, Hierarchical, and DBSCAN including silhouette analysis. |
+| `DECISION_TREE.ipynb` | Classification using decision trees with visual representation. |
+| `EDA1.ipynb` | Exploratory Data Analysis: data types, summary statistics, and missing value treatment. |
+| `EDA2.ipynb` | Advanced EDA: feature correlations, distributions, and visualization using Seaborn/Matplotlib. |
+| `KNN.ipynb` | Classification and regression using K-Nearest Neighbors, with tuning and evaluation. |
+| `LGBM & XGBM.ipynb` | Gradient boosting using LightGBM and XGBoost models. Includes feature importance. |
+| `LOGISTICREGRESSION.ipynb` | Binary classification using logistic regression including evaluation metrics and ROC-AUC. |
+| `Naive Bayes & Text Mining.ipynb` | Text classification using Naive Bayes and basic NLP preprocessing. |
+| `NEURAL NETWORKS.ipynb` | Feedforward neural network implementation and training using Keras. |
+| `PCA.ipynb` | Dimensionality reduction using Principal Component Analysis (PCA). |
+| `Random Forest.ipynb` | Ensemble learning with Random Forest for classification and feature ranking. |
+| `Recommendation_System.ipynb` | Collaborative and content-based recommendation engine implementation. |
+| `SVM.ipynb` | Classification using Support Vector Machines with linear and kernel-based models. |
+| `TimeSeries.ipynb` | Time series decomposition, forecasting, and rolling averages using pandas and statsmodels. |
 
-- **KNN.ipynb**  
-  K-Nearest Neighbors classification and regression.
+---
 
-- **LGBM & XGBM.ipynb - Colab.html**  
-  Gradient boosting with LightGBM and XGBoost (Google Colab export).
-
-- **LOGISTICREGRESSION (1).ipynb**  
-  Logistic regression for binary classification.
-
-- **Naive Bayes & Text Mining.ipynb**  
-  Naive Bayes classifier and text mining techniques.
-
-- **NEURAL NETWORKS.ipynb**  
-  Introduction to neural networks and deep learning.
-
-- **PCA.ipynb**  
-  Principal Component Analysis for dimensionality reduction.
-
-- **Random Forest.ipynb**  
-  Random Forest ensemble methods.
-
-- **Recommendation_System.ipynb**  
-  Building recommendation systems (collaborative and content-based).
-
-- **SVM.ipynb**  
-  Support Vector Machines for classification.
-
-- **TimeSeries.ipynb**  
-  Time series analysis and forecasting.
-
-## Getting Started
+## 💻 Getting Started
 
 1. **Clone the repository:**
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
-
-2. **Open notebooks:**  
-   Use [Jupyter Notebook](https://jupyter.org/) or [Google Colab](https://colab.research.google.com/) to open and run the `.ipynb` files.
-
-3. **Install dependencies:**  
-   Most notebooks use popular Python libraries such as `pandas`, `numpy`, `scikit-learn`, `matplotlib`, and `seaborn`. Install them using:
-   ```sh
-   pip install -r requirements.txt
-   ```
-   *(Create a `requirements.txt` if needed.)*
-
-## Notes
-
-- The `LGBM & XGBM.ipynb - Colab.html` file is an exported HTML from Google Colab. For best experience, use the original notebook in Colab.
-- Each notebook is self-contained and includes explanations, code, and outputs.
-
-## License
-
-This project is for educational purposes.
-
----
+   git clone https://github.com/Alwyna30/datascience.git
+   cd datascience
